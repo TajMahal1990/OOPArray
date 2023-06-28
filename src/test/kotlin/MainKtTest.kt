@@ -126,7 +126,7 @@ class MainKtTest {
         val service = WallService
         // заполняем несколькими постами
         val post1 = Post(
-            100,
+            1,
             12345689,
             12345689,
             111111,
