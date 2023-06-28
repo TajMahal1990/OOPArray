@@ -1,12 +1,15 @@
 import org.junit.Test
 
+
+
 import org.junit.Assert.*
+
 
 class MainKtTest {
 
     @Test
     fun updateExisting() {
-        val service = WallService
+        var service = WallService
         val post1 = Post(
             1,
             12345689,
